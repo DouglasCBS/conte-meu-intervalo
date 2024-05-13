@@ -1,4 +1,16 @@
-const mtime = document.getElementById("time");
+import './calculadora';
+import './style.css';
+
+
+
+
+
+
+
+
+
+
+/* const mtime = document.getElementById("time");
 const itime = document.getElementById("timeI");
 const calcTime = document.getElementById("calcTime");
 const header = document.querySelector("h1");
@@ -36,3 +48,4 @@ function getTime(time, stime) {
     }
     
 }
+ */

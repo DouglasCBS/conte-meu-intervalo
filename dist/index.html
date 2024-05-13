@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pra tu Grasi</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <h1>Usa o formato assim ó grasi tipo assim: "18:36", "01:30"</h1>
+        <form>
+            <div id="horario-atual">
+                Horário que você saiu para o intervalo
+                <input type="text" id="horaAtual" minlength="2" maxlength="2" required>
+                :
+                <input type="text" id="minutoAtual" minlength="2" maxlength="2" required>
+            </div>
+            <div id="intervalo">
+                Seu tempo de intervalo
+                <input type="text" id="horaIntervalo" minlength="2" maxlength="2" required>
+                :
+                <input type="text" id="minutoIntervalo" minlength="2" maxlength="2" required>
+            </div>
+            <button id="calcTime" type="submit">Calcular</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>

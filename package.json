@@ -1,0 +1,20 @@
+{
+  "name": "conte-meu-intervalo",
+  "version": "1.0.0",
+  "description": "Site simples feito com o intuito de adicionar o horário de intervalo ao horário atual e facilitar para quem tem dificuldade com cálculos.",
+  "main": "calculadora.js",
+  "scripts": {
+    "start": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.1",
+    "jquery": "^3.7.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
